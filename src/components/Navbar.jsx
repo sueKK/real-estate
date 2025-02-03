@@ -24,7 +24,7 @@ const Navbar = () => {
             <img src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
         </div>
         {/*---------mobile menu--------*/}
-        <div className={`md:hidden fixed w-full right-0 top-0 bottom-0
+        <div className={`md:hidden ${showMobileMenu ? 'fixed w-full': 'h-0 w-0'}  right-0 top-0 bottom-0
         overflow-hidden bg-white transition-all`}>
           <div className='flex justify-end p-6 cursor-pointer'>
             <img src={assets.cross_icon} className='w-6' alt="" />
