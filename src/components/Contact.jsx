@@ -1,6 +1,7 @@
 import React from 'react'
 import { toast } from 'react-toastify'
 import { motion } from "motion/react"
+import { div } from 'framer-motion/client';
 
 const Contact = () => {
 
@@ -42,7 +43,7 @@ const Contact = () => {
     overflow-hidden' id='Contact'>
          <h1 className='text-2xl sm:text-4xl font-bold mb-2
         text-center'>Contact<span className='underline 
-        underline-offset-4  decoration-1 under font-light'>With Us</span></h1>
+        underline-offset-4  decoration-1 under font-light'>Us</span></h1>
         <p className='text-center text-gray-500 mb-12 max-w-80
         mx-auto'>Ready to make a move? Let's Build Your Future Together</p>
 
@@ -67,7 +68,7 @@ const Contact = () => {
         px-4 mt-2 h-48 resize-none'
         name="Message" placeholder='Message' required></textarea>
     </div>
-    <button className='bg-blue-600 text-white py-2 px-12 mb-10
+    <button className='bg-assent text-white py-2 px-12 mb-10
     rounded'>{result ? result : "send Message"}</button>
 </form>
 

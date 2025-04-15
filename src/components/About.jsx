@@ -42,7 +42,7 @@ const About = () => {
                  attached to it. It includes residential, commercial, industrial, and 
                  agricultural properties. The real estate industry involves buying, selling, renting,
                   and developing properties for investment or personal use.</p>
-                  <button className='bg-blue-600 text-white px-8 py-2 rounded'>Learn More</button>
+                  <button className='bg-assent text-white px-8 py-2 rounded'>Learn More</button>
             </div>
          </div>
     </motion.div>
